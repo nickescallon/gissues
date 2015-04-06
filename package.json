@@ -1,0 +1,43 @@
+{
+  "name": "gissues",
+  "version": "0.1.0",
+  "description": "a git issues viewer",
+  "main": "index.js",
+  "author": "Not Allowed To Tell...",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^9.0.3",
+    "coffee-react": "^2.4.1",
+    "coffee-reactify": "^2.4.1",
+    "coffee-script": "^1.9.1",
+    "del": "^1.1.1",
+    "express": "^4.12.0",
+    "github-flavored-markdown": "^1.0.1",
+    "gulp": "^3.8.11",
+    "gulp-concat": "^2.5.2",
+    "jest-cli": "^0.4.0",
+    "jquery": "^2.1.3",
+    "main-bower-files": "^2.5.0",
+    "parse-links": "^0.1.0",
+    "react": "^0.12.2",
+    "react-router": "^0.12.4",
+    "vinyl-source-stream": "^1.0.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "rootDir": "./",
+    "scriptPreprocessor": "preprocessor.js",
+    "testFileExtensions": [
+      "cjsx"
+    ],
+    "unmockedModulePathPatterns": [
+      "react"
+    ]
+  },
+  "engines": {
+    "node": "~0.10.3"
+  }
+}

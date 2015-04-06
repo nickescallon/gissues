@@ -1,0 +1,14 @@
+{
+  "name": "gissues",
+  "version": "0.1.0",
+  "authors": [
+    "Not Allowed To Tell..."
+  ],
+  "description": "a git issues viewer",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "normalize.css": "~3.0.2"
+  }
+}

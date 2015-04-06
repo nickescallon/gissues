@@ -1,0 +1,13 @@
+.DS_Store
+.bundle
+.project
+.idea
+log
+tasks/.gitkeep
+bower_components/
+dist/
+generated/
+node_modules/
+*.log
+.sass-cache/
+junit-results.xml
