@@ -1,5 +1,3 @@
-# Twitter Code Audition
-
 A Git Issues viewer for the rails project.
 
 ## Requirements
